@@ -1,0 +1,30 @@
+#map  { 
+    height: 500px;
+    width: 2000px; 
+    z-index: 0;
+}
+
+#pays div {
+    display: inline-block;
+    padding: 50px;
+}
+
+#pays {
+    text-align: center;
+}
+
+.draggable { 
+    width: 100px; 
+    height: 100px;
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px 10px 10px 0; 
+}
+
+.droppable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px; 
+}
